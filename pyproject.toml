@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lift-elsso-ragret_jd333"
+name = "lift-elsso-gradient_accumulation_batch_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别RAG 检索工程师·梯度累积与有效批量的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://lift-elsso.github.io"
-Repository = "https://github.com/lift-elsso/ragret_jd333"
-Issues = "https://github.com/lift-elsso/ragret_jd333/issues"
+Repository = "https://github.com/lift-elsso/gradient_accumulation_batch_signature_match"
+Issues = "https://github.com/lift-elsso/gradient_accumulation_batch_signature_match/issues"
 
 [project.scripts]
-ragret_jd333 = "ragret_jd333:main"
+gradient_accumulation_batch_signature_match = "gradient_accumulation_batch_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["ragret_jd333"]
+py-modules = ["gradient_accumulation_batch_signature_match"]

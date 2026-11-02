@@ -1,11 +1,11 @@
-# ragret_jd333
+# gradient_accumulation_batch_signature_match
 
 **给RAG 检索工程师·梯度累积与有效批量算一个特征指纹并定位可疑片段。**
 
-`ragret_jd333` —— 通过字符级与结构级特征识别RAG 检索工程师·梯度累积与有效批量的痕迹，给出密度与命中位置
+`gradient_accumulation_batch_signature_match` —— 通过字符级与结构级特征识别RAG 检索工程师·梯度累积与有效批量的痕迹，给出密度与命中位置
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`ragret_jd333.py` 拷走就能用
+- 单文件，`gradient_accumulation_batch_signature_match.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install lift-elsso-ragret_jd333
+pip install lift-elsso-gradient_accumulation_batch_signature_match
 ```
 
 装完直接用命令名调用：
 
 ```bash
-ragret_jd333 --help
+gradient_accumulation_batch_signature_match --help
 ```
 
-也可以不用安装，直接把 `ragret_jd333.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `gradient_accumulation_batch_signature_match.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ ragret_jd333 --help
 ## 用法
 
 ```bash
-python ragret_jd333.py --file input.txt
-python ragret_jd333.py --text "示例内容"
-python ragret_jd333.py --file input.txt --json
+python gradient_accumulation_batch_signature_match.py --file input.txt
+python gradient_accumulation_batch_signature_match.py --text "示例内容"
+python gradient_accumulation_batch_signature_match.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python ragret_jd333.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_ragret_jd333.py
+python test_gradient_accumulation_batch_signature_match.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_ragret_jd333.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/lift-elsso/ragret_jd333>
+- GitHub 仓库：<https://github.com/lift-elsso/gradient_accumulation_batch_signature_match>
 
 ---
 
@@ -79,7 +79,7 @@ python test_ragret_jd333.py
 lift-elsso 做RAG 检索工程师·梯度累积与有效批量相关的问题，方向对标快手的负责人RAG 检索工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://lift-elsso.github.io>
-- 仓库：<https://github.com/lift-elsso/ragret_jd333>
+- 仓库：<https://github.com/lift-elsso/gradient_accumulation_batch_signature_match>
 
 ## 许可
 
